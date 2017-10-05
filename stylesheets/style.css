@@ -230,7 +230,7 @@ html {
 }
 
 /*  Collapse rows */
-.collapse {
+/*.collapse {
   visibility: hidden;
 }
 .collapse.show {
@@ -253,4 +253,22 @@ html {
   transition-property: width, visibility;
   width: 0;
   height: auto;
+}*/
+
+#aboutMeRow {
+  transition: all 1s;
+  width: 0;
+  /*display: none;*/
+  visibility: hidden;
+  max-height: 0;
+  text-overflow: ellipsis;
+}
+
+#aboutMeRow.expanded {
+  transition: all 1s, height 0.5s 0.5s;
+  width: 75%;
+  /*display: inline;*/
+  visibility: visible;
+  max-height: 100%;
+  /*transition: height 0.5s 0.5s;*/
 }
