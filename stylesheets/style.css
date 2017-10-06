@@ -255,16 +255,16 @@ html {
   height: auto;
 }*/
 
-#aboutMeRow {
+.expandable-Rows{
   transition: all 1s;
   width: 0;
   /*display: none;*/
   visibility: hidden;
   max-height: 0;
-  text-overflow: ellipsis;
+  /*text-overflow: ellipsis;*/
 }
 
-#aboutMeRow.expanded {
+.expandable-Rows.expanded{
   transition: all 1s, height 0.5s 0.5s;
   width: 75%;
   /*display: inline;*/
