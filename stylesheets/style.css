@@ -16,7 +16,7 @@
   padding-top: 60px;
   width: 100%;
   width: 100vw;
-  height: 550px;
+  height: 700px;
   background: #F5A623; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #F5A623 , #4A90E2); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #F5A623 , #4A90E2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -56,6 +56,10 @@ textarea.form-control {
   width: 150px;
   background-color: transparent;
   color: #fff;
+
+}
+.btn{
+  border-color: #ffffff;
 
 }
 
